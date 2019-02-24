@@ -14,7 +14,6 @@
     var currentUrl = document.location.href;
 
     if (isVideoPage(currentUrl)) {
-        console.log('gabba');
         runWrapper();
     }
 
@@ -23,7 +22,6 @@
         if (checkUrl !== currentUrl) {
             currentUrl = checkUrl;
             if (isVideoPage(currentUrl)) {
-                console.log('gabba');
                 runWrapper();
             }
         }
